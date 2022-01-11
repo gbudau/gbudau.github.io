@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>George Budau Portfolio</title>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <h1><a href="./index.html"><span class="fas fa-code" aria-hidden="true"></span><span> George Budau</span></a>
+          </h1>
+        </li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://www.linkedin.com/in/gbudau" target="_blank"><span class="fab fa-linkedin"
+              aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span>
+          </a></li>
+        <li><a href="https://www.github.com/gbudau" target="_blank"><span class="fab fa-github-square"
+              aria-hidden="true"></span>
+            <span class="sr-only">Github</span></a></li>
+        <li><a href="https://resume.github.io/?gbudau" target="_blank" class="button">Resume</a></li>
+        </li>
+    </nav>
+    <section id="intro">
+      <p class="name">Hi, my name is <span>George Budau.</span></p>
+      <h2>I create computer programs.</h2>
+      <p>I'm a software developer.</p>
+      <p>Currently, I'm studying Computer Software Engineering at <a href="https://www.42madrid.com/" target="_blank">42
+          Madrid</a>.</p>
+    </section>
+    <div class="horizontal-gradient"></div>
+    <div class="section-dkblue">
+      <section id="projects">
+        <h2>Projects I'm proud of</h2>
+        <article>
+          <div class="project-text">
+            <h4>Network Programming Project</h4>
+            <h3>HTTP Web Server</h3>
+            <p class="black-box">An HTTP server waits for the incoming client requests (sent by user agents like
+              browsers)
+              and for each
+              request
+              it
+              answers by replying with requested information, including the sending of the requested web resource, or
+              with
+              an
+              HTTP error message.</p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>C++</li>
+            </ul>
+          </div>
+          <img src="./images/HTTP.png"
+            alt="An HTTP client sends a request message to an HTTP server.  The server, in turn, returns a response message.">
+        </article>
+        <article class="reverse">
+          <div class="project-text">
+            <h4>Operating Systems Project</h4>
+            <h3>Command-line shell</h3>
+            <p class="black-box">A shell is a computer program which exposes an operating system's services to a human
+              user or other
+              programs. It is named a shell because it is the outermost layer around the operating system.
+            </p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>C</li>
+            </ul>
+          </div>
+          <img src="./images/cli-shell.png" alt="Terminal showing multiple shell commands">
+        </article>
+        <article>
+          <div class="project-text">
+            <h4>Systems Administration Project</h4>
+            <h3>Microservices on a k8s cluster</h3>
+            <p class="black-box">Kubernetes , commonly stylized as k8s is an open-source container orchestration system
+              for automating
+              software deployment, scaling, and management.</p>
+            <h4>Technologies used include:</h4>
+            <ul>
+              <li>Kubernetes</li>
+              <li>Docker</li>
+              <li>Metallb</li>
+              <li>Nginx</li>
+              <li>MariaDB</li>
+              <li>Wordpress</li>
+              <li>phpMyAdmin</li>
+              <li>Grafana</li>
+              <li>InfluxDB</li>
+              <li>Telegraf</li>
+              <li>Vsftpd</li>
+            </ul>
+          </div>
+          <img src="./images/kubernetes-dashboard.png" alt="Kubernetes dashboard">
+        </article>
+      </section>
+    </div>
+    <div class="horizontal-gradient"></div>
+    <div class="section-plum">
+      <section id="contact">
+        <h2>Contact me</h2>
+        <p>I'm always interested in hearing about new opportunities.</p>
+        <p><a href="mailito:gbudau@student.42madrid.com" class="button">Email me</a></p>
+      </section>
+    </div>
+    <div class="horizontal-gradient"></div>
+    <footer>
+      <h2>George Budau &middot; Software Developer</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/gbudau" target="_blank"><span class="fab fa-linkedin"
+              aria-hidden="true"></span>
+            <span class="sr-only">LinkedIn</span>
+          </a></li>
+        <li><a href="https://www.github.com/gbudau" target="_blank"><span class="fab fa-github-square"
+              aria-hidden="true"></span>
+            <span class="sr-only">Github</span></a></li>
+        <li><a href="mailito:gbudau@student.42madrid.com"><span class="fas fa-envelope" aria-hidden="true"></span>
+            <span class="sr-only">E-Mail</span></a></li>
+      </ul>
+      <p>
+        <small>&copy; <time id="year">2022</time> George Budau. All rights reserved.</small>
+      </p>
+    </footer>
+    <script src="./javascript/index.js"></script>
+  </body>
+
+</html>
